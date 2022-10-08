@@ -1,7 +1,7 @@
 // 全局API接口
 const configs = {
   // 网站名称
-  title: "Daymd.",
+  title: "雪莲果的博客",
   // hero模式,0：不显示；1：背景图模式；2：宇宙模式;3:博客模式;
   heroMode: 3,
   // 宇宙模式设置，限heroMode：2
@@ -26,7 +26,7 @@ const configs = {
     solarSystemSpeedOrbit: 100,
   },
   // 大文字,限heroMode：1|2
-  heroText: "Do it all with API.",
+  heroText: "Never gonna give you up!",
   // 大文字下的说明文字,限heroMode：1
   heroContent:
     "A blog site builder built with Next.js, Tailwind, DaisyUI, Contentlayer. Almost everything can be configured via the API interface. Get started quickly with zero basics.",
@@ -56,13 +56,13 @@ const configs = {
   theme2Setting: {
     // 右边栏作者头像
     avatar:
-      "https://jetzihan-img.oss-cn-beijing.aliyuncs.com/blog/20220710133634.png",
+      "https://s2.loli.net/2022/10/06/Fv6YGRZNeSKEC3V.jpg",
     // 背景图大小，1为顶部小图，2为整页图,3为混合模式
     backSize: 2,
     // 背景图链接，url不可省略
     topImg: "url(https://api.maho.cc/random-img/pc.php)",
     // 右边作者栏作者名称
-    authorName: "Jetzihan",
+    authorName: "一颗雪莲果",
     // 下面的按钮是否使用中文
     zhan: 1,
     // 技术栈
@@ -162,6 +162,9 @@ const configs = {
   ],
   // 选用的主题
   themeSelect: [
+    {
+      theme: "wireframe",
+    },
     {
       theme: "winter",
     },
